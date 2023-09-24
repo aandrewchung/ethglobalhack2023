@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "events": "^3.3.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "web3": "^4.0.2",
+    "web3-providers-ws": "^4.0.2",
+    "web3-validator": "^1.0.2"
+  }
+}
