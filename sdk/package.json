@@ -1,0 +1,37 @@
+{
+  "name": "web3card",
+  "version": "1.0.0",
+  "description": "A React SDK for querying and displaying universal profiles across platforms",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "web3",
+    "react",
+    "sdk",
+    "universal",
+    "profile"
+  ],
+  "author": "call me by your name",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "axios": "^0.21.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
